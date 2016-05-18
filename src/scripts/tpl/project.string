@@ -1,0 +1,45 @@
+<header>
+	<ul>
+		<li><i class="yo-ico">&#xe616;</i></li>
+		<li>
+			专题
+		</li>
+		<li><i class="yo-ico">&#xe660;</i></li>
+	</ul>
+</header>
+<section spa-widget="scroll">
+	<div>
+		<figure>
+		<img src="/FetishSeason/images/zT.png" />
+		<figcaption>家居家舍</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT02.png" />
+		<figcaption>生活日用</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT03.png" />
+		<figcaption>美容养户</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT.png" />
+		<figcaption>数码户外</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT02.png" />
+		<figcaption>全球美食</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT03.png" />
+		<figcaption>名品推荐</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT02.png" />
+		<figcaption>时尚潮流</figcaption>
+	</figure>
+	<figure>
+		<img src="/FetishSeason/images/zT03.png" />
+		<figcaption>热点追击</figcaption>
+	</figure>
+	</div>
+</section>

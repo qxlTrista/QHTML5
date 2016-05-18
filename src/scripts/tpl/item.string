@@ -1,0 +1,161 @@
+<header class="pro-header">
+	<ul>
+		<li><i class="yo-ico">&#xe616;</i></li>
+		<li>
+			单品
+		</li>
+		<li><i class="yo-ico">&#xe660;</i></li>
+	</ul>
+</header>
+<div id="item-box">
+	<nav>
+		<ul id="item-nav">
+			<li class="active" action-type="tap.hot.slide">分类</li>
+			<li action-type="tap.hot.slide">单品</li>
+			<li action-type="tap.hot.slide">自营</li>
+		</ul>
+	</nav>
+	<div class="swiper-container" id="item-List-swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<section id="classifyList" spa-widget="scroll">
+					<div>
+						<section class="house-list">
+							<h2>家居饰品</h2>
+							<ul>
+								<li>
+									<i class="yo-ico">&#xe60d;</i>
+									<b>家居挂饰</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe7e8;</i>
+									<b>家居摆饰</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe654;</i>
+									<b>家居收纳</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe655;</i>
+									<b>家居灯具</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i class="yo-ico">&#xe608;</i>
+									<b>家居布艺</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+							</ul>
+						</section>
+						<section class="house-list">
+							<h2>餐厅厨房</h2>
+							<ul>
+								<li>
+									<i class="yo-ico">&#xe69a;</i>
+									<b>餐饮用具</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe626;</i>
+									<b>餐厅布艺</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe65a;</i>
+									<b>厨房收纳</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe636;</i>
+									<b>厨房工具</b>
+								</li>
+							</ul>
+						</section>
+						<section class="house-list">
+							<h2>家居饰品</h2>
+							<ul>
+								<li>
+									<i class="yo-ico">&#xe60d;</i>
+									<b>家居挂饰</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe7e8;</i>
+									<b>家居摆饰</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe654;</i>
+									<b>家居收纳</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe655;</i>
+									<b>家居灯具</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i class="yo-ico">&#xe608;</i>
+									<b>家居布艺</b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+								<li>
+									<i class="yo-ico">&#xe616;</i>
+									<b></b>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide">
+				<section id="itemList" spa-widget="scroll" data-scroll-id="itemScroll" ms-visible="!isShowLoading">
+					<div>
+						<div class="head">
+		                  <img src="/webapp1502/images/arrow.png"/>
+		                  <span>下拉刷新...</span>
+		                </div>
+						<ul ms-repeat="itemList">
+							<li ms-attr-data-id="el[0].id">
+								<h1><img ms-src="el[0].img" /></h1>
+								<div>
+									<h2 ms-text="el[0].des"></h2>
+									<p><span ms-text="el[0].price"></span><b ms-text="el[0].like"><i></i></b></p>
+								</div>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!el[1]" ms-attr-data-id="el[1].id">
+								<h1><img img ms-src="el[1].img" /></h1>
+								<div>
+									<h2 ms-text="el[1].des"></h2>
+									<p><span ms-text="el[1].price"></span><b ms-text="el[0].like"><i></i></b></p>
+								</div>
+							</li>
+						</ul>
+					<div class="foot">
+	                  <img src="/webapp1502/images/arrow.png"/>
+	                  <span>上拉加载更多...</span>
+	                </div>
+				</div>
+			</section>
+		</div>
+			<div class="swiper-slide">
+				自营自营
+			</div>
+		</div>
+	</div>
+</div>

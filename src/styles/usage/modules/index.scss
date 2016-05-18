@@ -1,0 +1,45 @@
+//首页  页脚样式  index.string
+.m-index{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    .m-index-container{
+        @include flex();
+        width: 100%;
+    }
+    
+/*--------底部导航 部分---------*/
+    footer{
+        width: 100%;
+        background: #e6e6e6;
+        @include border(1px 0 0 0, #898989);
+        ul{
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            li{
+               @include flex();
+               @include flexbox(); //这个是管子元素的
+               @include flex-direction(column);
+               @include align-items(center);
+               @include justify-content(center);
+               &.active {
+                  b, i {
+                    color: $base-color;
+                  }
+                }
+               b,i{
+                   display: block;
+                   color: #9e9e9e;
+                   width: 100%;
+                   text-align: center;
+                   font-weight: normal;
+               }
+               i{
+                   font-size: .22rem;
+               }
+            }
+        }
+    }
+}

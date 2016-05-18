@@ -1,0 +1,145 @@
+//首页  身体样式  home.string
+.m-index-container{
+    position: relative;
+    overflow: hidden;
+    header{
+        width: 100%;
+        height: .44rem;
+        background:#e6e6e6;
+        z-index: 99999;
+        color: #303030;
+        border-bottom: .01rem solid #8a8a8a;
+        ul{
+            width: 100%;
+            height: .44rem;
+            @include flexbox();
+            li:not(:nth-child(2)){// 这里的li:not(:nth-child(2)) 除第二个li外的元素
+                width: .44rem;
+                text-align: center;
+                   //color:$base-color;
+                   @include flexbox();
+                   @include justify-content(center);
+                   @include align-items(center);
+                i{
+                   display: block;
+                    width:.34rem;
+                    height: .34rem;
+                    font-size: .22rem;
+                    border-radius: 50%;
+                    //background-color:rgba(255,255,255,.8);
+                    text-align: center;
+                    line-height: .34rem;
+                }
+            }
+            li:nth-child(2){
+               @include flex();
+               @include flexbox();
+               @include justify-content(center);
+               @include align-items(center);
+               font-weight: bold;
+            }
+        }
+    }
+/*-------身体 部分---------*/
+    section{
+        @include flex();
+        width: 100%;
+        #h-ban-swiper{
+          width: 100%;
+          .swiper-slide {
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .h-menu{
+            width: 100%;
+            background: #fff;
+            margin-bottom: .05rem;
+            ul{
+                width: 100%;
+                @include flexbox();
+                @include box-sizing(border-box);
+                padding:.09rem;
+                li{
+                   @include flex();
+                   width:.7rem;
+                   background: violet;
+                   border-radius: .05rem;
+                   overflow: hidden;
+                   position:relative;
+                   &:not(:nth-child(4)){
+                       margin-right:.09rem;
+                   }
+                   img{
+                       width: 100%;
+                   }
+                   div{
+                       position: absolute;
+                       top: 0;
+                       right: 0;
+                       left: 0;
+                       bottom: 0;
+                       color: #fff;
+                       font-size: .12rem;
+                       @include flexbox();
+                       @include flex-direction(column);
+                       @include justify-content(center);
+                       @include align-items(center);
+                       p{
+                           width: 50%;
+                           height: .01rem;
+                           background: #fff;
+                       }
+                   }
+                }
+            }
+        }
+        .h-con{
+            width: 100%;
+            dl{
+                padding:.09rem;
+                background: #fff;
+                margin-bottom: .05rem;
+                dt{
+                    position: relative;
+                    img{
+                        width: 100%;
+                    }
+                    span{
+                        position: absolute;
+                        top: .14rem;
+                        right: .14rem;
+                        display: block;
+                        width: .6rem;
+                        height: .25rem;
+                        border-radius: .2rem;
+                        background-color:rgba(255,255,255,.6);
+                        @include flexbox();
+                        @include justify-content(center);
+                        @include align-items(center);
+                        i{
+                            display: block;
+                            width: .17rem;
+                            height: .17rem;
+                            font-size: .12rem;
+                            margin-left: .05rem;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        b{
+                           @include flex(); 
+                           font-weight: normal;
+                           color: $base-color;
+                        }
+                    }
+                }
+                dd{
+                    padding: .09rem .09rem 0;
+                }
+            }
+        }
+    }
+}

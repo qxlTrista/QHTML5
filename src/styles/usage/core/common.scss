@@ -1,0 +1,16 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+$base-color:  #0ac5be; //这里定义是公共样式头部是绿色
+
+@font-face {
+  font-family: yofont;
+  src: url("/FetishSeason/images/iconfonts/iconfont.woff") format("woff"), 
+  url("/FetishSeason/images/iconfonts/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/FetishSeason/images/iconfonts/item.woff") format("woff"), 
+  url("/FetishSeason/images/iconfonts/item.ttf") format("truetype");
+}
+

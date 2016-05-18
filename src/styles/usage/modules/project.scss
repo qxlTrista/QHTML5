@@ -1,0 +1,28 @@
+
+section{
+   figure{
+       width: 100%;
+       position: relative;
+       margin-bottom: .06rem;
+       &:nth-child(1){
+          padding-top:.06rem ;
+       }
+       img{
+           width: 100%;
+       }
+       figcaption{
+           position: absolute;
+           top: 0;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           color: #fff;
+           font-weight: bold;
+           @include flexbox();
+           @include flex-direction(column);
+           @include justify-content(center);
+           @include align-items(center);
+       }
+   }
+    
+}   

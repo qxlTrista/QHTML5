@@ -1,0 +1,93 @@
+<header id="home-header">
+	<ul>
+		<li><i class="yo-ico">&#xe616;</i></li>
+		<li>
+			恋物季
+		</li>
+		<li><i class="yo-ico">&#xe660;</i></li>
+	</ul>
+</header>
+<section spa-widget="scroll">
+	<div>
+		<div class="swiper-container" id="h-ban-swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="/FetishSeason/images/hban01.png" />
+			</div>
+			<div class="swiper-slide">
+				<img src="/FetishSeason/images/hban02.png" />
+			</div>
+			<div class="swiper-slide">
+				<img src="/FetishSeason/images/hban03.png" />
+			</div>
+			<div class="swiper-slide" action-type="goto.index">
+				<img src="/FetishSeason/images/hban04.png" />
+			</div>
+		</div>
+
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="h-menu">
+		<ul>
+			<li>
+				<div>
+					<h2>创意家居</h2>
+					<p></p>
+				</div>
+				<img src="/FetishSeason/images/h-menu01.png" />
+			</li>
+			<li>
+				<div>
+					<h2>限时特卖</h2>
+					<p></p>
+				</div>
+				<img src="/FetishSeason/images/h-menu02.png" />
+			</li>
+			<li>
+				<div>
+					<h2>Top好物</h2>
+					<p></p>
+				</div>
+				<img src="/FetishSeason/images/h-menu03.png" />
+			</li>
+			<li>
+				<div>
+					<h2>生活指南</h2>
+					<p></p>
+				</div>
+				<img src="/FetishSeason/images/h-menu04.png" />
+			</li>
+		</ul>
+	</div>
+	<div class="h-con">
+		<dl>
+			<dt>
+					<span><i><img src="/FetishSeason/images/love.png"/></i><b>1892</b></span>
+					<img src="/FetishSeason/images/hpicList01.png"/>
+				</dt>
+			<dd>开发式衣架，拯救椅子于衣服堆！</dd>
+		</dl>
+		<dl>
+			<dt>
+					<span><i><img src="/FetishSeason/images/love.png"/></i><b>1892</b></span>
+					<img src="/FetishSeason/images/hpicList02.png"/>
+				</dt>
+			<dd>房子太小？墙面收纳教你创造个性空间</dd>
+		</dl>
+		<dl>
+			<dt>
+					<span><i><img src="/FetishSeason/images/love.png"/></i><b>1892</b></span>
+					<img src="/FetishSeason/images/hpicList01.png"/>
+				</dt>
+			<dd>开发式衣架，拯救椅子于衣服堆！</dd>
+		</dl>
+		<dl>
+			<dt>
+					<span><i><img src="/FetishSeason/images/love.png"/></i><b>1892</b></span>
+					<img src="/FetishSeason/images/hpicList02.png"/>
+				</dt>
+			<dd>房子太小？墙面收纳教你创造个性空间</dd>
+		</dl>
+	</div>
+	</div>
+</section>
